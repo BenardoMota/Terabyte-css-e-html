@@ -1,0 +1,298 @@
+body{
+    background-color: #ebebeb;
+}
+
+.section-produto{
+    background-color: #fff;
+    border-radius: 6px;
+    margin: 20px 220px;
+}
+
+.a-linha{
+    text-decoration: none;
+    color: #ff5510;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.fa-chevron-down{
+    color: #777;
+    font-size: 10px;
+    font-weight: 700;
+}
+.topo{
+    display: flex;
+    justify-content: space-between;
+    
+    
+    border-bottom: solid 1px rgba(0,0,0,.09);
+}
+
+.fa-whatsapp{
+    color: #00a000;
+    padding: 0;
+}
+
+.fa-envelope{
+    color: #ff5800;
+}
+.fa-heart{
+    color: red;
+}
+.linha1, .rede-sociais{
+    padding: 10px;
+}
+.imgx64{
+    width: 64px;
+    height: 64px;
+}
+.linha-2{
+    padding: 20px 50px 0 100px;
+}
+.col-1{
+    display: flex;
+    padding: 10px;
+}
+.imgProduto{
+    height: 600px;
+    width: 600px;
+}
+
+.info-prod{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-2{
+    background: #2d2d2d;
+    width: 40%;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+.fa-clock{
+    color: #ff5800;
+    padding: 15px;
+    font-size: 25px;
+    
+}
+
+.row1{
+    margin: 10px;
+    display: flex;
+    border-bottom: 1px solid rgba(0,0,0,.3);
+}
+.aproveite{
+    padding: 0 70px 10px;
+    border-left: 1px solid rgba(0,0,0,.3);
+    border-right: 1px solid rgba(0,0,0,.3);
+}
+
+.p-tera, .p-aproveite{
+margin: 0;
+}
+.p-tera{
+    color: #ff5510;
+    font-weight: 700;
+}
+.p-aproveite{
+    color: #fff;
+    font-weight: 700;
+}
+
+
+
+.h1-tempo{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding: 0 30px;
+    margin: 0;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-bottom: 1px solid rgba(0,0,0,.3);
+}
+
+.p-desconto, .p-numero{
+    color: #ff5510;
+    background-color: #191919;
+    font-size: 30px;
+    padding: 0 90px;
+    margin: 0 10px 10px 10px;
+
+}
+
+.p-texto, .p-vendidos{
+    color: #fff;
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+}
+
+.row-3{
+    padding: 10px;
+}
+
+.novo, .garantia{
+    display: flex;
+}
+
+.p-novo, .p-garantia{
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;
+    padding-left: 5px; 
+}
+
+.fa-star, .fa-calendar-days{
+    color: #ff5800;
+    font-size: 12px;
+    padding-left: 5px ;
+}
+
+.parti-1{
+    display: flex;
+
+}
+.h1-descricao{
+    font-size: 18px;
+    color: #fff;
+}
+.p-codigo{
+    color: #888;
+    font-size: 14px;
+}
+
+.preco-vendidos{
+    color: #fff;
+    padding: 5px;
+    background-color: #ff5510;
+    border-radius: 25px;
+}
+.posicao{
+    color: #fff;
+    padding-left: 5px;
+    font-size: 14px;
+}
+.posicao span{
+    color: #ff5510;
+}
+.parte-2{
+    display: flex;
+}
+.vendido-por{
+    color: #777;
+    font-size: 12px;
+}
+.vendido-por span{
+    color: #fff;
+}
+.fa-bolt, .fa-circle-info{
+    color: #ebebeb;
+    font-size: 12px;
+}
+.p-entrega{
+    color: #00a000;
+    font-size: 12px;
+    padding: 0 5px;
+    line-height: 10px;
+    margin: 0;
+}
+.entrega{
+    display: flex;
+    padding: 10px 0 5px 0;
+}
+.avalicao{
+    color: #f2c832;
+}
+.avalicao span{
+    color: #777;
+    font-size: 12px;
+}
+.avista{
+    display: flex;
+    padding-top: 10px;
+}
+
+.preco-antigo{
+    color: #fff;
+    padding: 0 0 0 5px;
+    line-height: 15px;
+    margin: 0;
+}
+.fa-barcode, .fa-credit-card{
+    color: #777;
+}
+.preco-real{
+    color: #73c300;
+    font-size: 30px;
+    padding-left: 5px;
+    margin: 0;
+    font-weight: 700;
+}
+.p-mensagem{
+    color: #fff;
+    font-size: 12px;
+}
+.preco-parcelado{
+    color: #ff5510;
+    margin: 0;
+    font-size: 20px;
+    line-height: 15px;
+    padding-left: 5px ;
+}
+
+.parcelado{
+    display: flex;
+}
+.dividido{
+    color: #fff;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.dividido span{
+    color: #ff5510;
+}
+.frete{
+    color: #fff;
+    font-size: 12px;
+}
+.frete span{
+    color: #00a000;
+}
+
+.ver-parcelamento{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+}
+.butao{
+    font: 18px "Open Sans Bold",Arial,Helvetica,sans-serif;
+    background: #73c300;
+    color: #fff;
+    width: 100%;
+    margin: 30px 0 0 0;
+    padding: 10px 0;
+    position: relative;
+    letter-spacing: 0;
+    border-right: none;
+    transition: .5s all;
+    border-radius: 4px;
+    border: none;
+}
+
+.fa-cart-arrow-down{
+    right: 0;
+    position: absolute;
+    padding: 0 10px;
+    font-size: 20px;
+    opacity: 1;
+}
